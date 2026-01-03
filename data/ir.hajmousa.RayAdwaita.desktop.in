@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=RayAdwaita
+Exec=rayadwaita
+Icon=ir.hajmousa.RayAdwaita
+Terminal=false
+Type=Application
+Categories=Utility;
+Keywords=V2ray;VPN;
+StartupNotify=true
+DBusActivatable=true

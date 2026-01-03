@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist gettext-domain="rayadwaita">
+	<schema id="ir.hajmousa.RayAdwaita" path="/ir/hajmousa/RayAdwaita/">
+	</schema>
+</schemalist>

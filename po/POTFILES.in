@@ -1,0 +1,8 @@
+# List of source files containing translatable strings.
+# Please keep this file sorted alphabetically.
+data/ir.hajmousa.RayAdwaita.desktop.in
+data/ir.hajmousa.RayAdwaita.metainfo.xml.in
+data/ir.hajmousa.RayAdwaita.gschema.xml
+src/main.py
+src/window.py
+src/ui/window.ui
