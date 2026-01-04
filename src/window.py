@@ -19,12 +19,16 @@
 
 from gi.repository import Adw
 from gi.repository import Gtk
+from .welcome import RayWelcomePage
 
 @Gtk.Template(resource_path='/ir/hajmousa/RayAdwaita/ui/window.ui')
 class RayadwaitaWindow(Adw.ApplicationWindow):
     __gtype_name__ = 'RayAdwaitaWindow'
 
-    label = Gtk.Template.Child()
+    scrolled_window = Gtk.Template.Child()
 
     def __init__(self, **kwargs):
         super().__init__(**kwargs)
+
+        welcome_page = RayWelcomePage()
+        self.scrolled_window.set_child(welcome_page.page)

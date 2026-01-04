@@ -38,6 +38,7 @@ configure_file(
 rayadwaita_sources = [
   '__init__.py',
   'main.py',
+  'welcome.py',
   'window.py',
 ]
 

@@ -4,5 +4,6 @@ data/ir.hajmousa.RayAdwaita.desktop.in
 data/ir.hajmousa.RayAdwaita.metainfo.xml.in
 data/ir.hajmousa.RayAdwaita.gschema.xml
 src/main.py
+src/welcome.py
 src/window.py
 src/ui/window.ui

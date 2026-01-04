@@ -43,7 +43,7 @@ class RayadwaitaApplication(Adw.Application):
         win.present()
 
     def on_about_action(self, *args):
-        about = Adw.AboutDialog(application_name='rayadwaita',
+        about = Adw.AboutDialog(application_name='RayAdwaita',
                                 application_icon='ir.hajmousa.RayAdwaita',
                                 developer_name='HajMousa',
                                 version='0.1.0',

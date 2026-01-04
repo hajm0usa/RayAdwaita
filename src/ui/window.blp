@@ -18,12 +18,10 @@ template $RayAdwaitaWindow: Adw.ApplicationWindow {
       }
     }
 
-    content: Label label {
-      label: _("RayAdwaita");
-
-      styles [
-        "title-1",
-      ]
+    content: Adw.ToastOverlay toast_overlay {
+      child: Gtk.ScrolledWindow scrolled_window {
+        hscrollbar-policy: never;
+      };
     };
   };
 }
